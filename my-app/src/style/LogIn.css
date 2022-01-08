@@ -1,0 +1,60 @@
+.wrapper_for_nice_picture{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+} 
+
+
+.login_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+.login_items input:focus {
+  outline: none;
+}
+.login_items input {
+  padding: 10px;
+  border-radius: 12px;
+}
+
+
+.login_item{
+    background-color: #dfe6e9;
+    color: #2d3436;
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    margin: 10px; 
+    border: 2px solid white;
+}
+.login_item input:focus{
+    outline: none;
+}
+
+.buttons_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.log_in, .sign_up{
+    background-color: #00cec9;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+    border: 2px solid white;
+    width: 20%;
+    height: 40px;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}

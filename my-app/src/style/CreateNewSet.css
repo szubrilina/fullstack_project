@@ -1,0 +1,115 @@
+.add_set_name input{
+    background-color: #dfe6e9;
+    border: 2px solid white;
+    border-radius: 12px;
+
+    height: 20px;
+    width: 30%;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    padding: 10px;
+}
+
+.add_set_name input:focus{
+    outline: none;
+}
+
+.add_set_description input{
+
+    border: 2px solid white;
+    border-radius: 12px;
+
+    background-color: #dfe6e9;
+
+    height: 70px;
+    width: 50%;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    padding: 10px;
+}
+
+.add_set_description input:focus{
+    outline: none;
+}
+
+
+/* Add new word */
+.add_word {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+.add_word input, button{
+    background-color: #dfe6e9;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 10px;
+    margin-right: 20px;
+}
+.add_word input:focus{
+    outline: none;
+}
+
+/* These code can be moved to more oppropriate place */
+.button{
+    background-color:#6c5ce7;/* #00cec9*/;
+    color: #fff;
+    box-shadow: 0 1px #999;
+    border: none;
+    cursor: pointer;
+}
+.button:hover {background-color: #74b9ff/* #01b6b3*/}
+.button:active {
+    background-color: #74b9ff /* #01b6b3*/;
+    box-shadow: 0 2px #666;
+    transform: translateX(2px);
+  }
+
+h2{
+    margin-left: 20px;
+}
+/* These code can be moved to more oppropriate place */
+
+
+.word_set{
+    display: flex;
+    flex-direction: column;
+}
+
+.word_parts{
+    display: flex;
+    flex-direction: row;
+}
+.word_part1{
+    background-color: #dfe6e9;
+    padding-top: 1px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 20%;
+    font-size: 20px;
+    border-radius: 12px;
+} 
+.word_part2{
+    background-color:#dfe6e9;
+    padding-top: 1px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 12px;
+} 
+
+.create_set_btn{
+    padding: 20px;
+}

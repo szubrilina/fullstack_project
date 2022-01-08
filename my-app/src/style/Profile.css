@@ -1,0 +1,26 @@
+.all-sets{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.signle-set{
+    padding: 10%;
+    background-color: /*#f0efff*/ white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px #636e72;
+    margin-right: 10%;
+}
+.signle-set:hover {background-color: #f0efff/* #01b6b3*/}
+.signle-set:active {
+    background-color: #f0efff /* #01b6b3*/;
+    box-shadow: 0 2px #666;
+    transform: translateX(2px);
+}
+.notice{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    color: #636e72;
+}

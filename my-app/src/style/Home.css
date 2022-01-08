@@ -1,0 +1,67 @@
+.button_wrapper_for_home_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_wrapper_for_home_page button{
+    margin: 20px;
+}
+
+.add-text{
+    font-size: 35px;
+    margin: 10%;
+    text-align: center;
+    line-height: 170%; 
+}
+.FlashCartLearner{
+    color: #e84393;
+    font-size: 45px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+/* 
+.add-block-wrapper{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} */
+/* .img{
+    flex: 1.12 0 0;
+    flex-grow: 1.12;
+    flex-shrink: 0;
+    flex-basis: 0px;
+    width: 100%;
+}
+.description{
+    flex: 1 0 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0px;
+    margin-left: 5.375rem;
+    text-align: center;
+}
+.text{
+    font-size: 1.25rem;
+    font-weight: var(--typography-body-weight);
+    letter-spacing: normal;
+    line-height: 1.4;
+    padding: 1.5rem 0;
+    padding-right: '40%'; */
+/* } */
+/* .body {  
+    background-color: deepskyblue;  
+} 
+.img {  
+    width: 350px; 
+    float: left; 
+    margin-right: 10px; 
+} 
+.div { 
+    float: left; 
+    width: calc(100% - 350px - 10px); 
+}  */

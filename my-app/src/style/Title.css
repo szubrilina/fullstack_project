@@ -1,0 +1,31 @@
+.Title {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: #6c5ce7;
+    color: #fff;
+  }
+  
+
+.Title-Subtitle {
+    color: #fff;
+}
+.link{
+    margin-right: 10px;
+}
+.subtitle-btn{
+    margin-right: 10px;
+    /* border-color: red; */
+    background-color: white;
+    color: #2d3436;
+}
+.subtitle-btn:hover {background-color: white/* #01b6b3*/}
+.subtitle-btn:active {
+    background-color: white /* #01b6b3*/;
+    box-shadow: 0 2px #666;
+    transform: translateX(2px);
+}
