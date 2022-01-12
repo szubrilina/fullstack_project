@@ -1,4 +1,4 @@
-# fullstack_project
+# Fullstack Project
 
 ## *Ссылка на front:* http://real-front-set-words.herokuapp.com/
 ## *Ссылка на back:* https://front-set-words.herokuapp.com/admin/login/?next=/admin/ 
